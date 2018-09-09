@@ -1,0 +1,52 @@
+* {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.blog-masthead {
+  background-color: white;
+  color: black;
+}
+.blog-masthead .container {
+  width: 100%;
+}
+.header-container {
+  padding: 0;
+}
+.blog-nav {
+  border-top: 1px solid #eae6e6cc;
+  width: 100%;
+  margin-top: 20px;
+}
+.blog-nav li {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: 600;	
+}
+.blog-nav li a {
+  color: black;
+  text-transform: uppercase;
+}
+
+.blog-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.blog-title a {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.frontpage {
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+.blog-main {
+  margin-top: 20px;
+}
+
+.pager {
+  list-style: none;
+}
