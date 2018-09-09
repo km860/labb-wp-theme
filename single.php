@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-	<div class="row">
-		<div class="col-sm-8">
+	<div class="row singlepost">
+		<div class="col-sm-8" style="margin-top: 20px;">
 
 			<?php 
 				if ( have_posts() ) : while ( have_posts() ) : the_post();
