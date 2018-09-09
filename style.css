@@ -47,6 +47,41 @@
   margin-top: 20px;
 }
 
+.blog-post {
+  align-self: baseline;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+
+.blog-post-title a {
+  color: #000;
+  font-size: 20px;
+}
+.blog-post-meta {
+  font-size: 14px;
+  color: #514e4e
+}
+
 .pager {
   list-style: none;
+}
+
+.blog-sidebar {
+  margin-top: 20px;
+}
+
+.sidebar-module {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.sidebar-module h4 {
+  font-size: 20px;
+}
+
+.blog-footer {
+  text-align: center;
+  padding: 20px;
 }

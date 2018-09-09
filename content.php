@@ -1,4 +1,4 @@
-<div class="blog-post">
+<div class="col-sm blog-post">
   <h2 class="blog-post-title">
     <a href="<?php the_permalink(); ?>">
       <?php the_title(); ?>

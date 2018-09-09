@@ -3,11 +3,13 @@
 	<div class="row frontpage">
 
 		<div class="col-sm blog-main">
-      <div class="row"></div>
-      <?php 
-      if ( have_posts() ) : while ( have_posts() ) : the_post();
-        get_template_part( 'content', get_post_format() ); 
-      endwhile; ?>
+      <div class="row">
+
+        <?php 
+        if ( have_posts() ) : while ( have_posts() ) : the_post();
+          get_template_part( 'content', get_post_format() ); 
+        endwhile; ?>
+      </div>
       <nav>
         <ul class="pager">
           <li><?php next_posts_link( 'Previous' ); ?></li>
